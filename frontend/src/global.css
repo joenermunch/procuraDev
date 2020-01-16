@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: #e4f9ff;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+body ul,
+input ul,
+button ul {
+  list-style: none;
+}
+/*# sourceMappingURL=global.css.map */
