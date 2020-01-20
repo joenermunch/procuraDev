@@ -3,6 +3,14 @@ li.dev-item {
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 2px;
   padding: 20px;
+  min-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-break: auto;
+  word-wrap: break-word;
+
 
   p {
     color: #666;
@@ -34,6 +42,8 @@ li.dev-item {
 
     .user-info {
       margin-left: 10px;
+
+
 
       strong {
         display: block;

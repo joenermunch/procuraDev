@@ -4,6 +4,19 @@ li.dev-item {
           box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 2px;
   padding: 20px;
+  min-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-break: auto;
+  word-wrap: break-word;
 }
 
 li.dev-item p {
